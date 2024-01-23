@@ -1,0 +1,10 @@
+env               = "poc"
+region            = "ca-central-1"
+project_name      = "aws-transfer-ot"
+vpc_cidr          = "172.29.32.0/19"
+private_subnets   = ["172.29.32.0/21", "172.29.40.0/21"]
+public_subnets    = ["172.29.48.0/21", "172.29.56.0/21"]
+enable_natgateway = true
+enable_vpngateway = false
+count_eip_nat     = 2
+owner_tag         = "DevOps Team for OpenText"
